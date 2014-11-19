@@ -12,18 +12,18 @@ except ImportError:
 import multiprocessing
 
 
-PACKAGE_NAME = 'commoncrawlindex'
+PACKAGE_NAME = 'mefi'
 VERSION = '0.0.2'
 
 
 settings = dict(
   name=PACKAGE_NAME,
   version=VERSION,
-  description='Access to an index of Common Crawl URLs.',
-  long_description='Access to an index of Common Crawl URLs',
+  description='Metafilter utilities.',
+  long_description='Code relevant to scraping and processing data from metafilter.com.',
   author='John Wiseman',
   author_email='jjwiseman@gmail.com',
-  url='https://github.com/jjwiseman/common-crawl-index',
+  url='https://github.com/wiseman/mefi',
   packages=['mefi'],
   test_suite='nose.collector',
   install_requires=[
